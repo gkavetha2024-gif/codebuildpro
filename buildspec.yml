@@ -40,4 +40,4 @@ phases:
 
 artifacts:
   files:
-    - target/codebuildpro.jar
+    - target/codebuildpro.war
