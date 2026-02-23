@@ -33,9 +33,12 @@ phases:
     runtime-versions:
       java: corretto17
 
-  build:
-    commands:
-      - mvn clean package -DskipTests
+build:
+  commands:
+    - echo "Listing files"
+    - pwd
+    - ls -la
+    - ls -R
 
 artifacts:
   files:
