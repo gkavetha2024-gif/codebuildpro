@@ -33,7 +33,6 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn --quiet install
-      - mvn deploy
       - ls -R
 artifacts:
   files:
