@@ -35,4 +35,4 @@ phases:
       - mvn --quiet install
 artifacts:
   files:
-    - target/*.jar
+    - target/codebuildpro.jar
