@@ -35,12 +35,8 @@ phases:
 
 build:
   commands:
-     - echo Build started on `date`
-     - pwd
-     - ls -lrta
-     - ls -lrt $CODEBUILD_SRC_DIR/settings.xml
-     - cp -pvr $CODEBUILD_SRC_DIR/settings.xml ~/.m2/settings.xml
-     - mvn deploy
+      - mvn clean package -DskipTests
+      - ls -R
 
 artifacts:
   files:
