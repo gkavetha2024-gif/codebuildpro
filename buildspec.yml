@@ -36,4 +36,4 @@ phases:
       - ls -R
 artifacts:
   files:
-    - ./target/codebuildpro.war
+    - target/codebuildpro.war
