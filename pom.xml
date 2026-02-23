@@ -15,7 +15,7 @@
 
         <!-- <sonar.host.url>https://sonarcloud.io</sonar.host.url> -->
         <sonar.organization>gkavetha2024-gif</sonar.organization>
-        <!-- <sonar.projectKey>kummari_b78am</sonar.projectKey> -->
+        <sonar.projectKey>gkavetha2024-gif_codebuildpro</sonar.projectKey> 
         <sonar.login>0577799b2f76bb40945fb494c7fa34b66748bb6d</sonar.login>
         
     </properties>
