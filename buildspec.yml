@@ -35,6 +35,8 @@ phases:
 
 build:
   commands:
+    - mvn clean package -DskipTests
+    - echo "Static site build"
     - echo "Listing files"
     - pwd
     - ls -la
