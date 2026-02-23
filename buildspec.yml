@@ -35,8 +35,8 @@ phases:
 
   build:
     commands:
-      - mvn clean deploy 
+      - mvn clean package -DskipTests
 
 artifacts:
   files:
-    - target/codebuildpro.war
+    - target/codebuildpro.jar
